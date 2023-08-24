@@ -1,0 +1,6 @@
+Search info:
+
+0 to 7 9.0
+
+6-0 dist:10.0 tempo:2.0
+6-7 dist:15.0 tempo:7.0

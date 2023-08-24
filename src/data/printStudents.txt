@@ -1,0 +1,6 @@
+Student{name=Ricardo , number=34900}
+Student{name=Hugo , number=34346}
+Student{name=Diogo , number=35378}
+Student{name=Sara , number=34567}
+Student{name=Bruno , number=36911}
+Student{name=Catarina , number=35367}

@@ -1,0 +1,8 @@
+Id;Name;Day;HourI;MinuteI;Duração;Room;Discipline;Turma;Professor
+1;Catarina;4;19;00;120;109;Sistemas Operativos;GAW;Andre
+1;Catarina;2;16;00;120;105;Sistemas Operativos;GAR;Beatriz
+1;Catarina;5;16;00;90;108;Linguagens de Programacao 2;FUR;Christophe
+1;Bruno;4;21;00;90;209;Linguagens de Programacao 2;FAR;Rui
+1;Bruno;3;15;00;90;209;Investigacao Operacional;GUR;Paulo
+1;Diogo;4;14;00;45;208;Sistemas Operativos;GAR;Andre
+2;Andre;4;21;00;45;208;Sistemas Operativos;GAR

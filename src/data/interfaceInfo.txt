@@ -1,0 +1,11 @@
+Graph info:
+name: 108 x: 100 y: 150 z: 1 type: 3 description: sala 108
+name: 208 x: 100 y: 225 z: 2 type: 3 description: sala 208
+name: 35367 x: 200 y: 205 z: 2 type: 1 description: aluno 35367
+name: 29888 x: 300 y: 225 z: 2 type: 2 description: professor 29888
+name: entrada x: 100 y: 75 z: 0 type: 4 description: entrada da faculdade
+name: rampa x: 200 y: 55 z: 0 type: 4 description: rampa de acesso ao primeiro piso
+name: hall1 x: 200 y: 130 z: 1 type: 4 description: hall piso um
+name: escadas1 x: 300 y: 150 z: 1 type: 4 description: escadas piso um
+name: hall0 x: 300 y: 75 z: 0 type: 4 description: hall piso zero
+name: escadas0 x: 400 y: 55 z: 0 type: 4 description: escadas piso 0

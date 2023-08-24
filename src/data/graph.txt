@@ -1,0 +1,11 @@
+nome;x;y;z;type;description
+108;100;150;1;3;sala 108
+208;100;225;2;3;sala 208
+35367;200;205;2;1;aluno 35367
+29888;300;225;2;2;professor 29888
+entrada;100;75;0;4;entrada da faculdade
+rampa;200;55;0;4;rampa de acesso ao primeiro piso
+hall1;200;130;1;4;hall piso um
+escadas1;300;150;1;4;escadas piso um
+hall0;300;75;0;4;hall piso zero
+escadas0;400;55;0;4;escadas piso 0

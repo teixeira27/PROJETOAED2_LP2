@@ -1,0 +1,7 @@
+Name;Number
+Catarina;35367
+Bruno;36911
+Diogo;35378
+Ricardo;34900
+Sara;34567
+Hugo;34346

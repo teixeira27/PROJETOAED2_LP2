@@ -1,0 +1,33 @@
+Schedule{ number= 208 id= 3 }
+Class{day=4 , hour=14 , minute=0 , hourF=14 , minuteF=45 , duracao=45 , room=208 , discipline=Sistemas Operativos , professor=Andre , turma=GAR}
+Class{day=4 , hour=21 , minute=0 , hourF=21 , minuteF=45 , duracao=45 , room=208 , discipline=Sistemas Operativos , professor=Andre , turma=GAR}
+Schedule{ number= 29888 id= 2 }
+Class{day=4 , hour=21 , minute=0 , hourF=22 , minuteF=30 , duracao=90 , room=209 , discipline=Linguagens de Programacao 2 , professor=Rui , turma=FAR}
+Schedule{ number= 108 id= 3 }
+Class{day=5 , hour=16 , minute=0 , hourF=17 , minuteF=30 , duracao=90 , room=108 , discipline=Linguagens de Programacao 2 , professor=Christophe , turma=FUR}
+Schedule{ number= 209 id= 3 }
+Class{day=3 , hour=15 , minute=0 , hourF=16 , minuteF=30 , duracao=90 , room=209 , discipline=Investigacao Operacional , professor=Paulo , turma=GUR}
+Class{day=4 , hour=21 , minute=0 , hourF=22 , minuteF=30 , duracao=90 , room=209 , discipline=Linguagens de Programacao 2 , professor=Rui , turma=FAR}
+Schedule{ number= 105 id= 3 }
+Class{day=2 , hour=16 , minute=0 , hourF=18 , minuteF=0 , duracao=120 , room=105 , discipline=Sistemas Operativos , professor=Beatriz , turma=GAR}
+Schedule{ number= 109 id= 3 }
+Class{day=4 , hour=19 , minute=0 , hourF=21 , minuteF=0 , duracao=120 , room=109 , discipline=Sistemas Operativos , professor=Andre , turma=GAW}
+Schedule{ number= 35378 id= 1 }
+Class{day=4 , hour=14 , minute=0 , hourF=14 , minuteF=45 , duracao=45 , room=208 , discipline=Sistemas Operativos , professor=Andre , turma=GAR}
+Schedule{ number= 29346 id= 2 }
+Class{day=3 , hour=15 , minute=0 , hourF=16 , minuteF=30 , duracao=90 , room=209 , discipline=Investigacao Operacional , professor=Paulo , turma=GUR}
+Schedule{ number= 31238 id= 2 }
+Class{day=4 , hour=14 , minute=0 , hourF=14 , minuteF=45 , duracao=45 , room=208 , discipline=Sistemas Operativos , professor=Andre , turma=GAR}
+Class{day=4 , hour=19 , minute=0 , hourF=21 , minuteF=0 , duracao=120 , room=109 , discipline=Sistemas Operativos , professor=Andre , turma=GAW}
+Class{day=4 , hour=21 , minute=0 , hourF=21 , minuteF=45 , duracao=45 , room=208 , discipline=Sistemas Operativos , professor=Andre , turma=GAR}
+Schedule{ number= 36911 id= 1 }
+Class{day=3 , hour=15 , minute=0 , hourF=16 , minuteF=30 , duracao=90 , room=209 , discipline=Investigacao Operacional , professor=Paulo , turma=GUR}
+Class{day=4 , hour=21 , minute=0 , hourF=22 , minuteF=30 , duracao=90 , room=209 , discipline=Linguagens de Programacao 2 , professor=Rui , turma=FAR}
+Schedule{ number= 30567 id= 2 }
+Class{day=5 , hour=16 , minute=0 , hourF=17 , minuteF=30 , duracao=90 , room=108 , discipline=Linguagens de Programacao 2 , professor=Christophe , turma=FUR}
+Schedule{ number= 31067 id= 2 }
+Class{day=2 , hour=16 , minute=0 , hourF=18 , minuteF=0 , duracao=120 , room=105 , discipline=Sistemas Operativos , professor=Beatriz , turma=GAR}
+Schedule{ number= 35367 id= 1 }
+Class{day=2 , hour=16 , minute=0 , hourF=18 , minuteF=0 , duracao=120 , room=105 , discipline=Sistemas Operativos , professor=Beatriz , turma=GAR}
+Class{day=4 , hour=19 , minute=0 , hourF=21 , minuteF=0 , duracao=120 , room=109 , discipline=Sistemas Operativos , professor=Andre , turma=GAW}
+Class{day=5 , hour=16 , minute=0 , hourF=17 , minuteF=30 , duracao=90 , room=108 , discipline=Linguagens de Programacao 2 , professor=Christophe , turma=FUR}

@@ -1,0 +1,6 @@
+Name;Ects;Sigla
+Linguagens de Programacao 2;7;LP2
+Algoritmos e Estruturas de Dados 2;6;AED2
+Sistemas Operativos;7;SO
+Sistemas Digitais;6;SD
+Investigacao Operacional;4;IO

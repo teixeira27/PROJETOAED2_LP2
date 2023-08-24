@@ -1,0 +1,5 @@
+Discipline{name=Sistemas Operativos , Ects=7}
+Discipline{name=Sistemas Digitais , Ects=6}
+Discipline{name=Investigacao Operacional , Ects=4}
+Discipline{name=Algoritmos e Estruturas de Dados 2 , Ects=6}
+Discipline{name=Linguagens de Programacao 2 , Ects=7}

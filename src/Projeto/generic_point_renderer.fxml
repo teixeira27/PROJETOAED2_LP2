@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <TabPane layoutY="27.0" prefHeight="500.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+                <Tab text="Graph">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                            <children>
+                                <VBox prefHeight="372.0" prefWidth="600.0" spacing="5.0">
+                                    <children>
+                                        <Label text="Select Floor">
+                                            <VBox.margin>
+                                                <Insets />
+                                            </VBox.margin>
+                                        </Label>
+                                        <ComboBox fx:id="floorComboBox" onAction="#handleFloorChoiceAction" prefHeight="27.0" prefWidth="596.0" promptText="Floor">
+                                            <VBox.margin>
+                                                <Insets bottom="5.0" />
+                                            </VBox.margin>
+                                        </ComboBox>
+                                        <Pane fx:id="graphGroup" prefHeight="121.0" prefWidth="580.0">
+                                            <children>
+                                                <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="116.0" prefWidth="238.0">
+                                                </AnchorPane>
+                                            </children>
+                                        </Pane>
+                                        <TextFlow fx:id="result" layoutX="14.0" layoutY="19.0" prefHeight="19.0" prefWidth="580.0" visible="false" />
+                                        <VBox alignment="TOP_RIGHT" layoutX="364.0" layoutY="94.0" prefHeight="270.0" prefWidth="580.0">
+                                            <children>
+                                                <Label prefHeight="17.0" prefWidth="70.0" text="Pesquisas" textAlignment="CENTER" />
+                                                <ComboBox fx:id="pesquisasComboBox" onAction="#handlePesquisasChoiceAction" prefHeight="25.0" prefWidth="222.0" promptText="Pesquisar">
+                                                    <VBox.margin>
+                                                        <Insets bottom="5.0" />
+                                                    </VBox.margin>
+                                                </ComboBox>
+                                                <Pane prefHeight="135.0" prefWidth="580.0">
+                                                    <children>
+                                                        <TextField fx:id="p1" layoutX="412.0" layoutY="14.0" prefHeight="25.0" prefWidth="60.0" promptText="ponto 1" visible="false" />
+                                                        <TextField fx:id="p2" layoutX="494.0" layoutY="14.0" prefHeight="25.0" prefWidth="60.0" promptText="ponto 2" visible="false" />
+                                                        <TextField fx:id="set" layoutX="400.0" layoutY="50.0" prefHeight="25.0" prefWidth="166.0" promptText=" set de prontos ex: 11,12,13" visible="false" />
+                                                        <Button fx:id="cmc" layoutX="498.0" layoutY="92.0" mnemonicParsing="false" onAction="#handleCaminhoMaisCurto" text="Search" visible="false" />
+                                                        <Button fx:id="cmr" layoutX="498.0" layoutY="92.0" mnemonicParsing="false" onAction="#handleCaminhoMaisRapido" text="Search" visible="false" />
+                                                        <Button fx:id="conexo" layoutX="498.0" layoutY="92.0" mnemonicParsing="false" onAction="#handleConexo" text="Search" visible="false" />
+                                                        <Button fx:id="cmcs" layoutX="498.0" layoutY="92.0" mnemonicParsing="false" onAction="#handleCaminhoMaisCurtoSet" text="Search" visible="false" />
+                                                        <VBox layoutX="362.0" layoutY="129.0" prefHeight="113.0" prefWidth="132.0">
+                                             <children>
+                                                <Label fx:id="floor2" text="Select Floor" visible="false" />
+                                                <ComboBox fx:id="floor2ComboBox" prefWidth="150.0" promptText="Floor" visible="false" />
+                                                 <Button fx:id="scmr" layoutX="498.0" layoutY="92.0" mnemonicParsing="false" onAction="#handleFloor2ChoiceAction" text="Search" visible="false" />
+                                                 <Button fx:id="scmcs" layoutX="498.0" layoutY="92.0" mnemonicParsing="false" onAction="#handleFloor2ChoiceAction" text="Search" visible="false" />
+                                                 <Button fx:id="scmc" layoutX="498.0" layoutY="92.0" mnemonicParsing="false" onAction="#handleFloor2ChoiceAction" text="Search" visible="false" />
+                                                 <Button fx:id="sconexo" layoutX="498.0" layoutY="92.0" mnemonicParsing="false" onAction="#handleFloor2ChoiceAction" text="Search" visible="false" />
+                                             </children>
+                                          </VBox>
+                                          <Button fx:id="clear" layoutX="428.0" layoutY="92.0" mnemonicParsing="false" onAction="#handleClearButton" text="Clear" />
+                                                    </children>
+                                                </Pane>
+                                            </children>
+                                        </VBox>
+                                    </children>
+                                    <padding>
+                                        <Insets left="10.0" right="10.0" top="10.0" />
+                                    </padding>
+                                </VBox>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab text="Gerir Graph">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                            <children>
+                                <VBox prefHeight="424.0" prefWidth="600.0" spacing="5.0">
+                                    <children>
+                                        <Label text="Listar">
+                                            <VBox.margin>
+                                                <Insets />
+                                            </VBox.margin>
+                                        </Label>
+                                        <ComboBox fx:id="verticesComboBox" onAction="#handleListarChoiceAction" prefHeight="27.0" prefWidth="596.0" promptText="Listar">
+                                            <VBox.margin>
+                                                <Insets bottom="5.0" />
+                                            </VBox.margin>
+                                        </ComboBox>
+                                        <TableView fx:id="verticesTable" editable="true" prefHeight="272.0" prefWidth="580.0">
+                                            <columns>
+                                                <TableColumn fx:id="name" onEditCommit="#handleListarChoiceAction" prefWidth="75.0" text="name" />
+                                                <TableColumn onEditCommit="#handleListarChoiceAction" prefWidth="75.0" text="x" fx:id="x" />
+                                                <TableColumn fx:id="y" onEditCommit="#handleListarChoiceAction" prefWidth="75.0" text="y" />
+                                                <TableColumn fx:id="z" onEditCommit="#handleListarChoiceAction" prefWidth="75.0" text="z" />
+                                                <TableColumn fx:id="type" onEditCommit="#handleListarChoiceAction" prefWidth="75.0" text="type" />
+                                                <TableColumn fx:id="description" onEditCommit="#handleListarChoiceAction" prefWidth="204.0" text="description" />
+                                            </columns>
+                                        </TableView>
+                                        <Pane prefHeight="52.0" prefWidth="580.0">
+                                            <children>
+                                                <TextField fx:id="tname" layoutX="8.0" layoutY="14.0" prefHeight="25.0" prefWidth="95.0" promptText="Name" />
+                                                <TextField fx:id="tx" layoutX="113.0" layoutY="14.0" prefHeight="25.0" prefWidth="40.0" promptText="X" />
+                                                <TextField fx:id="ty" layoutX="160.0" layoutY="14.0" prefHeight="25.0" prefWidth="42.0" promptText="Y" />
+                                                <TextField fx:id="tz" layoutX="209.0" layoutY="14.0" prefHeight="25.0" prefWidth="43.0" promptText="Z" />
+                                                <TextField fx:id="ttype" layoutX="262.0" layoutY="14.0" prefHeight="25.0" prefWidth="57.0" promptText="Type" />
+                                                <TextField fx:id="tdescription" layoutX="330.0" layoutY="14.0" prefHeight="25.0" prefWidth="146.0" promptText="Description" />
+                                                <Button layoutX="500.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleAddButton" text="Add" />
+                                                <Button layoutX="500.0" layoutY="50.0" mnemonicParsing="false" onAction="#handleRemoveButton" text="Remove" />
+                                            </children>
+                                        </Pane>
+                                    </children>
+                                    <padding>
+                                        <Insets left="10.0" right="10.0" top="10.0" />
+                                    </padding>
+                                </VBox>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+        <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="600.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#handleSaveFileAction" text="Save Graph Text File" />
+                        <MenuItem mnemonicParsing="false" onAction="#handleSearchFileAction" text="Save Search File" />
+                        <MenuItem mnemonicParsing="false" onAction="#handleSaveBinFileAction" text="Save Graph Bin File" />
+
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </children>
+</AnchorPane>

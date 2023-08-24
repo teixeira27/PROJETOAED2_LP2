@@ -1,0 +1,1 @@
+Discipline{name=Sistemas Operativos , Ects=7}
